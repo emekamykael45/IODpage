@@ -30,7 +30,7 @@ a {
 body {
   font-family: 'Exo 2', sans-serif;
   line-height: 1.5;
-  background: #f8fafb; 
+  background: #fff; 
 }
 
 a:hover {
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .header__section--sm {
-    background-image: url(../images/banner-img.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
+    background-image: url(../images//background.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -369,8 +369,7 @@ a:hover {
     .nav__main {
       padding-top: 30px;
       flex-direction: column; } }
-  .nav__main__wrapper {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  .nav__main__wrapper { }
 
 .nav__desktop {
   padding: 0 10px; }
@@ -521,11 +520,11 @@ clip-path: polygon(
 	);
 }
 
-.section-3 .col-md-3{
+.section-3 .col-md-4{
     border-right: 1px solid #f8b500;
 }
 
-.section-3 .col-md-3-end{
+.section-3 .col-md-4-end{
     border: none;
 }
 
@@ -541,11 +540,11 @@ clip-path: polygon(
 	);
     }
     
-    .section-3 .col-md-3{
+    .section-3 .col-md-4{
         border: none;
         margin-bottom: 35px;
     }
-    .section-3 .col-md-3-end{
+    .section-3 .col-md-4-end{
         border: none;
     }
 }
@@ -560,7 +559,7 @@ clip-path: polygon(
     margin-bottom: 0px;
 }
 
-.section-3 .col-md-3 hr{
+.section-3 .col-md-4 hr{
     background-color: #f8b500;
     height: 2px;
     width: 45px;
@@ -835,6 +834,7 @@ a.btn {
 .spon-parti{
     padding: 60px 70px;
     margin: 0;
+    background: #f8fafb;
 }
 
 .spon-parti .spon, .spon-parti .parti{
