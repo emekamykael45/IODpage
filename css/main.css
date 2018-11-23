@@ -210,7 +210,7 @@ a:hover {
     padding-bottom: 20px;
     margin: 0; }
     .nav__mobile .dropdown--blue {
-      background: #07157e; }
+      background: #4c4c4c; }
       @media (min-width: 640px) and (max-width: 980px) {
         .nav__mobile .dropdown--blue {
           background: transparent; } }
@@ -331,12 +331,12 @@ a:hover {
     position: absolute;
     left: -20px;
     background: #fff;
-    color: #091ba5;
+    color: #4c4c4c;
     min-width: 120px;
     border-radius: 4px;
     box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1); }
   .nav__sub--blue {
-    background: #061375; }
+    background: #4c4c4c; }
   .nav__sub__wrapper {
     background: #fff; }
   .nav__sub__link {
@@ -389,7 +389,7 @@ a:hover {
     .nav__menu--right .nav__sub__link {
       padding: 10px 20px; }
       .nav__menu--right .nav__sub__link--blue:hover {
-        background: #0b21cc; }
+        background: #4c4c4c; }
 
 .hero {
   text-align: center;
@@ -435,7 +435,7 @@ a:hover {
   background: #4c4c4c; }
   @media screen and (max-width: 980px) {
     .fixed-nav .nav__main__wrapper {
-      background: #061375; } }
+      background: #4c4c4c; } }
 
 .fixed-nav .nav__item--sm {
   padding: 10px 15px !important; }
